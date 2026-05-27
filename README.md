@@ -92,4 +92,41 @@ X = \frac{(S_{11} + S_{21}) - \Gamma}{1 - (S_{11} + S_{21})}
 ## 📷 5. Measurement Pictures  
 - Calibration completed  
 - Cable connected to VNA  
-- S‑parameter measurements at 1–5 GHz  
+- S‑parameter measurements at 1–5 GHz
+
+# Conclusion
+
+This project focuses on the characterization of a microwave transmission line using Vector Network Analyzer (VNA) measurements. The experiment analyzes scattering parameters (S-parameters), specifically S11 and S21, to extract important transmission line properties such as attenuation constant (α) and phase constant (β) over a frequency range.
+
+---
+
+## Project Structure
+
+```bash
+Microwave_Transmission_Line_Characterization/
+│
+├── Data/
+│   ├── S11_S21_measurements.csv
+│   ├── raw_vna_screenshots/
+│   │   ├── s11_s21_1GHz.png
+│   │   ├── s11_s21_2GHz.png
+│   │   ├── s11_s21_3GHz.png
+│   │   ├── s11_s21_4GHz.png
+│   │   └── s11_s21_5GHz.png
+│   └── calibration_photos/
+│       ├── calibration_done.png
+│       └── cable_connected.png
+│
+├── MATLAB_Code/
+│   ├── extract_alpha_beta.m
+│   └── plot_results.m
+│
+├── Results/
+│   ├── attenuation_alpha_vs_frequency.png
+│   ├── phase_beta_vs_frequency.png
+│   └── propagation_constants_summary.txt
+│
+├── Report/
+│   └── RF Final Project.pdf
+│
+└── README.md
