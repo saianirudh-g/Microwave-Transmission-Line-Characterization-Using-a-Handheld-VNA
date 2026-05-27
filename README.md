@@ -1,5 +1,3 @@
-# Antenna-Radia-Frequency-Design-using-Vector-Network-Analyser-VNAs-
-
 # Microwave Transmission Line Characterization Using a Handheld VNA
 
 **Authors:** Sai Anirudh Godavarthi  
@@ -106,7 +104,6 @@ This project focuses on the characterization of a microwave transmission line us
 Microwave_Transmission_Line_Characterization/
 │
 ├── Data/
-│   ├── S11_S21_measurements.csv
 │   ├── raw_vna_screenshots/
 │   │   ├── s11_s21_1GHz.png
 │   │   ├── s11_s21_2GHz.png
@@ -116,15 +113,13 @@ Microwave_Transmission_Line_Characterization/
 │   └── calibration_photos/
 │       ├── calibration_done.png
 │       └── cable_connected.png
-│
+│  
 ├── MATLAB_Code/
-│   ├── extract_alpha_beta.m
 │   └── plot_results.m
 │
 ├── Results/
 │   ├── attenuation_alpha_vs_frequency.png
-│   ├── phase_beta_vs_frequency.png
-│   └── propagation_constants_summary.txt
+│   └── phase_beta_vs_frequency.png
 │
 ├── Report/
 │   └── RF Final Project.pdf
